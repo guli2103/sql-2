@@ -1,0 +1,2 @@
+### sqlda ishlash
+
