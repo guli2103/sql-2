@@ -1,6 +1,6 @@
 import sqlite3 as sql
 
-boglanish = sql.connect("fayl.db")
+boglanish = sql.connect("fayll.db")
 
 malumot = boglanish.cursor()
 
@@ -20,27 +20,5 @@ CREATE TABLE IF NOT EXISTS Prezidenti(
     Shi Jinpin TEXT
 )''')
 
-malumot.execute('''
-CREATE TABLE IF NOT EXISTS Poytaxti(
-    Toshkent TEXT
-    Vashington TEXT
-    Moskva TEXT
-    Pekin TEXT
-)''')
 
-malumot.execute('''
-CREATE TABLE IF NOT EXISTS Aholisi(
-    ozbekiston aholisi INTEGER
-    aqsh aholisi INTEGER
-    rossiya aholisi INTEGER
-    xitoy aholisi INTEGER
-)
-''')
 
-malumot.execute('''
-CREATE TABLE IF NOT EXISTS Maydoni(
-    ozbekiston maydoni INTEGER
-    aqsh maydoni INTEGER
-    rossiya maydoni INTEGER
-    xitoy maydoni INTEGER
-)''')
