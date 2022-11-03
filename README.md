@@ -1,3 +1,3 @@
 ### sqlda ishlash
 
-<img src = "./dataBase.jpg" alt = "DataBase">
+<img src = "./dataBAse.jpg" alt = "DataBase">
